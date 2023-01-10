@@ -19,6 +19,8 @@
 			display: block;
 			margin: 0;
 			color: white;
+			width: 1440px;
+			height: 810px;
 		}
 
 		#canvas:focus {
@@ -117,7 +119,7 @@
 
 </head>
 <body>
-	<canvas id='canvas'>
+	<canvas id='canvas'  width="1440" height="810">
 		HTML5 canvas appears to be unsupported in the current browser.<br />
 		Please try updating or use a different browser.
 	</canvas>
@@ -139,7 +141,7 @@
 	<script type='text/javascript' src='index.js'></script>
 	<script type='text/javascript'>//<![CDATA[
 
-		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":2,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":729808,"index.wasm":13789463},"focusCanvas":true,"gdnativeLibs":[]};
+		const GODOT_CONFIG = {"args":[],"canvasResizePolicy":1,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":649648,"index.wasm":13789463},"focusCanvas":true,"gdnativeLibs":[]};
 		var engine = new Engine(GODOT_CONFIG);
 
 		(function() {
@@ -245,4 +247,3 @@
 	//]]></script>
 </body>
 </html>
-
